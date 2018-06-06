@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Marvel Mastery</string>
+    <string name="question_1">Question 1: Which heroes are members of the Avengers?</string>
+    <string name="question_1_answer_a">Hawkeye</string>
+    <string name="question_1_answer_b">The Flash</string>
+    <string name="question_1_answer_c">Green Arrow</string>
+    <string name="question_1_answer_d">Black Widow</string>
+    <string name="question_2">Question 2: Which heroes lost an eye?</string>
+    <string name="question_2_answer_a">Loki</string>
+    <string name="question_2_answer_b">Thor</string>
+    <string name="question_2_answer_c">Hulk</string>
+    <string name="question_2_answer_d">Odin</string>
+    <string name="question_3">Question 3: Which heroes are members of the Guardians of the Galaxy?</string>
+    <string name="question_3_answer_a">Groot</string>
+    <string name="question_3_answer_b">Starlord</string>
+    <string name="question_3_answer_c">Rocket Racoon</string>
+    <string name="question_3_answer_d">Gamora</string>
+    <string name="question_4">Question 4: What does S.H.I.E.L.D. stand for?</string>
+    <string name="question_4_answer_a">Super Hero Intelligence, Enforcement and Law Department</string>
+    <string name="question_4_answer_b">Strategic Homeland Intervention, Enforcement and Logistics Division</string>
+    <string name="question_4_answer_c">Synthetic Humanoid Identification, Entrapment and Lockup Division</string>
+    <string name="question_4_answer_d">Silly Helium Injection, Expansion and Liftoff Department</string>
+    <string name="question_5">Question 5: What makes the AntMan suit shrink?</string>
+    <string name="question_5_answer_a">Anti Atom</string>
+    <string name="question_5_answer_b">Perfect Photon</string>
+    <string name="question_5_answer_c">Pym Particle</string>
+    <string name="question_5_answer_d">Incredible Ion</string>
+    <string name="question_6">Question 6: What is Vision made out of?</string>
+    <string name="question_6_answer_a">Adamantium</string>
+    <string name="question_6_answer_b">Gravitonium</string>
+    <string name="question_6_answer_c">Unobtainium</string>
+    <string name="question_6_answer_d">Vibranium</string>
+    <string name="question_7">Question 7: What is the Hulk\'s first name?</string>
+    <string name="type_answer_here">Type Answer Here</string>
+    <string name="question_8">Question 8: Who is Iron Man?</string>
+    <string name="question_9">Question 9: Who is Thor\'s sister?</string>
+    <string name="question_10">Question 10: Who was not a villain fought by the Avengers?</string>
+    <string name="button_text">DONE!</string>
+    <string-array name="question_10_choices">
+        <item>Select Your Answer</item>
+        <item>Thanos</item>
+        <item>Ultron</item>
+        <item>Apocalypse</item>
+        <item>Loki</item>
+    </string-array>
+</resources>

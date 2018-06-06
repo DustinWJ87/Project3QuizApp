@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#518CCA</item>
+        <item name="android:buttonTint">#518CCA</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+    <!-- Checkbox theme. -->
+    <style name="CheckBoxTheme" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#E23636</item>
+    </style>
+    <!-- Question theme. -->
+    <style name="QuestionTheme" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <!-- RadioButton theme. -->
+    <style name="RadioTheme" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#E23636</item>
+    </style>
+    <!-- EditText theme. -->
+    <style name="EditTextTheme" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textColor">#E23636</item>
+    </style>
+    <!-- Button theme. -->
+    <style name="DoneButtonTheme" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">#E23636</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+</resources>

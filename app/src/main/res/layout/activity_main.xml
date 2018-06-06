@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shield"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/question1"
+            style="@style/QuestionTheme"
+            android:text="@string/question_1" />
+
+        <CheckBox
+            android:id="@+id/question1A"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_1_answer_a" />
+
+        <CheckBox
+            android:id="@+id/question1B"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_1_answer_b" />
+
+        <CheckBox
+            android:id="@+id/question1C"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_1_answer_c" />
+
+        <CheckBox
+            android:id="@+id/question1D"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_1_answer_d" />
+
+        <TextView
+            android:id="@+id/question2"
+            style="@style/QuestionTheme"
+            android:text="@string/question_2" />
+
+        <CheckBox
+            android:id="@+id/question2A"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_2_answer_a" />
+
+        <CheckBox
+            android:id="@+id/question2B"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_2_answer_b" />
+
+        <CheckBox
+            android:id="@+id/question2C"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_2_answer_c" />
+
+        <CheckBox
+            android:id="@+id/question2D"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_2_answer_d" />
+
+        <TextView
+            android:id="@+id/question3"
+            style="@style/QuestionTheme"
+            android:text="@string/question_3" />
+
+        <CheckBox
+            android:id="@+id/question3A"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_3_answer_a" />
+
+        <CheckBox
+            android:id="@+id/question3B"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_3_answer_b" />
+
+        <CheckBox
+            android:id="@+id/question3C"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_3_answer_c" />
+
+        <CheckBox
+            android:id="@+id/question3D"
+            style="@style/CheckBoxTheme"
+            android:text="@string/question_3_answer_d" />
+
+        <TextView
+            android:id="@+id/question4"
+            style="@style/QuestionTheme"
+            android:text="@string/question_4" />
+
+        <RadioGroup style="@style/RadioTheme">
+
+            <RadioButton
+                android:id="@+id/question4A"
+                style="@style/RadioTheme"
+                android:text="@string/question_4_answer_a" />
+
+            <RadioButton
+                android:id="@+id/question4B"
+                style="@style/RadioTheme"
+                android:text="@string/question_4_answer_b" />
+
+            <RadioButton
+                android:id="@+id/question4C"
+                style="@style/RadioTheme"
+                android:text="@string/question_4_answer_c" />
+
+            <RadioButton
+                android:id="@+id/question4D"
+                style="@style/RadioTheme"
+                android:text="@string/question_4_answer_d" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question5"
+            style="@style/QuestionTheme"
+            android:text="@string/question_5" />
+
+        <RadioGroup style="@style/RadioTheme">
+
+            <RadioButton
+                android:id="@+id/question5A"
+                style="@style/RadioTheme"
+                android:text="@string/question_5_answer_a" />
+
+            <RadioButton
+                android:id="@+id/question5B"
+                style="@style/RadioTheme"
+                android:text="@string/question_5_answer_b" />
+
+            <RadioButton
+                android:id="@+id/question5C"
+                style="@style/RadioTheme"
+                android:text="@string/question_5_answer_c" />
+
+            <RadioButton
+                android:id="@+id/question5D"
+                style="@style/RadioTheme"
+                android:text="@string/question_5_answer_d" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question6"
+            style="@style/QuestionTheme"
+            android:text="@string/question_6" />
+
+        <RadioGroup style="@style/RadioTheme">
+
+            <RadioButton
+                android:id="@+id/question6A"
+                style="@style/RadioTheme"
+                android:text="@string/question_6_answer_a" />
+
+            <RadioButton
+                android:id="@+id/question6B"
+                style="@style/RadioTheme"
+                android:text="@string/question_6_answer_b" />
+
+            <RadioButton
+                android:id="@+id/question6C"
+                style="@style/RadioTheme"
+                android:text="@string/question_6_answer_c" />
+
+            <RadioButton
+                android:id="@+id/question6D"
+                style="@style/RadioTheme"
+                android:text="@string/question_6_answer_d" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question7"
+            style="@style/QuestionTheme"
+            android:text="@string/question_7" />
+
+        <EditText
+            android:id="@+id/question7Answer"
+            style="@style/EditTextTheme"
+            android:text="@string/type_answer_here" />
+
+        <TextView
+            android:id="@+id/question8"
+            style="@style/QuestionTheme"
+            android:text="@string/question_8" />
+
+        <EditText
+            android:id="@+id/question8Answer"
+            style="@style/EditTextTheme"
+            android:text="@string/type_answer_here" />
+
+        <TextView
+            android:id="@+id/question9"
+            style="@style/QuestionTheme"
+            android:text="@string/question_9" />
+
+        <EditText
+            android:id="@+id/question9Answer"
+            style="@style/EditTextTheme"
+            android:text="@string/type_answer_here" />
+
+        <TextView
+            android:id="@+id/question10"
+            style="@style/QuestionTheme"
+            android:text="@string/question_10" />
+
+        <Spinner
+            android:id="@+id/question10Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:id="@+id/doneButton"
+            style="@style/DoneButtonTheme"
+            android:background="@drawable/my_button_background"
+            android:onClick="checkScore"
+            android:text="@string/button_text" />
+
+    </LinearLayout>
+
+</ScrollView>
